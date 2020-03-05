@@ -13,6 +13,7 @@ class HomeTableViewController: UITableViewController {
     @IBAction func onLogout(_ sender: Any) {
         TwitterAPICaller.client?.logout()
         self.dismiss(animated: true, completion: nil)//screen will dismiss itself
+        UserDefaults.standard.set(false, forKey: "userLoggedIn")
     }
     
     
