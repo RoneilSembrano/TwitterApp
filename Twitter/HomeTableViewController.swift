@@ -16,6 +16,7 @@ class HomeTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadTweet()
     }
     
     
@@ -37,6 +38,7 @@ class HomeTableViewController: UITableViewController {
                 self.tableView.reloadData()
         },  failure: { (Error) in
             print("Could not retrieve tweets")
+            print(Error.localizedDescription) //429..
         })
         
     }
