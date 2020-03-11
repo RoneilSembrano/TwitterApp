@@ -14,7 +14,7 @@ class TweetViewController: UIViewController {
     @IBAction func cancel(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
-    
+
     @IBOutlet weak var tweetTextView: UITextView!
     
     @IBAction func tweet(_ sender: Any) {
@@ -33,6 +33,7 @@ class TweetViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tweetTextView.becomeFirstResponder()
 
         // Do any additional setup after loading the view.
     }
