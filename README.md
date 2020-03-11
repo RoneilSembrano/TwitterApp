@@ -2,7 +2,7 @@
 
 **TwitterApp** is a basic twitter app to read your tweets.
 
-Time spent: **X** hours spent in total
+Time spent: **8** hours spent in total
 
 ## User Stories
 
@@ -12,7 +12,7 @@ The following **required** functionality is completed:
 - [x] User can log in. (1pt)
 - [x] User can log out. (1pt)
 - [x] User stays logged in across restarts. (1pt)
-- [ ] User can view tweets with the user profile picture, username, and tweet text. (6pts)
+- [x] User can view tweets with the user profile picture, username, and tweet text. (6pts)
 
 The following **bonus** features are implemented:
 
@@ -23,5 +23,5 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.gyazo.com/064f1bbe033c1f64c0ae7d4022459d39.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
