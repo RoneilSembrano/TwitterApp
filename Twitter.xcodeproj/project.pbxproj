@@ -79,15 +79,15 @@
 		6EBCF52421DF07FC00451C03 /* Twitter */ = {
 			isa = PBXGroup;
 			children = (
+				7012A8522411B3F400DB54BE /* HomeTableViewController.swift */,
 				6EBCF54D21E71F9400451C03 /* Launch Screen.storyboard */,
 				6EBCF52921DF07FC00451C03 /* Main.storyboard */,
 				7034EE9424185022003E1155 /* TweetViewController.swift */,
+				7040FF55241215AC00521BCF /* TweetCellTableViewCell.swift */,
 				7012A84C24117F1B00DB54BE /* LoginViewController.swift */,
 				6EBCF54321E047A500451C03 /* TwitterAPICaller.swift */,
 				6EBCF52521DF07FC00451C03 /* AppDelegate.swift */,
 				6EBCF53121DF07FE00451C03 /* Info.plist */,
-				7012A8522411B3F400DB54BE /* HomeTableViewController.swift */,
-				7040FF55241215AC00521BCF /* TweetCellTableViewCell.swift */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
